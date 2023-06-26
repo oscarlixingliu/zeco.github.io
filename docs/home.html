@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="shortcut icon" type="img/png" href="icon.png">
+        <style rel="stylesheet" type="text/css">
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #000000;
+                background-color: #FFFFFF;
+            }
+            a {
+                color: black;
+                text-decoration: none;
+                transition-duration: 0.5s;
+            }
+            a:hover {
+                color: black;
+                transition-duration: 0.1s;
+            }
+            #topnav {
+                font-size: 30px;
+                text-align: center;
+                background-color: white;
+            }
+            #webicon {
+                position: absolute;
+                width: 150px;
+                margin-left: -180px;
+                margin-top: -60px;
+            }
+            #c {
+                color: darkgray;
+            }
+            #title {
+                font-size: 40px;
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 20px;
+                text-align: center;
+            }
+            #subtitle {
+                font-size: 20px;
+                text-align: justify;
+                margin-top: -50px;
+                width: 80%;
+                margin-left: 10%;
+            }
+            .hed2 {
+                font-weight: 500;
+            }
+            .one {
+                height: 700px;
+                padding-top: 130px;
+                background-color: rgb(255, 255, 255);
+                left: 20%;
+                width: 80%;
+                margin-bottom: -200px;
+            }
+            .information1 {
+                position: absolute;
+                width: 38%;
+                left: 10%;
+                color: rgb(0, 0, 0);
+                text-align: justify;
+            }
+            .img1 {
+                width: 38%;
+                height: 40%;
+                position: absolute;
+                right: 11%;
+                background-image: url(Bridge.JPG);
+                background-size: cover;
+            }
+            .two {
+                height: 480px;
+                width: 80%;
+                padding-top: 0px;
+                background-color: rgb(243, 243, 243);
+                margin-left: 9.5%;
+                margin-right: 0px;
+            }
+            .information2 {
+                position: absolute;
+                text-align: justify;
+                width: 33%;
+                right: 14%;
+                color: rgb(0, 0, 0)
+            }
+            .img2 {
+                width: 50%;
+                height: 100%;
+                position:relative;
+                left: 0%;
+            }
+            .actualimage {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+            .imgoverlay {
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                opacity: 0%;
+                transition-duration: 0.5s;
+            }
+            .imgoverlay > * {
+                transform: translateY(20px);
+                transition: transform 2s;
+            }
+            .imgoverlay:hover {
+                opacity: 100%;
+                transition-duration: 0.1s;
+            }
+            .imgoverlay:hover > * {
+                transform: translateY(0px);
+                transition: transform 0.1s;
+            }
+            td {
+                text-align: center;
+                padding: 30px;
+            }
+            #footersection {
+                float: left;
+                width: 100%;
+                background-color: rgb(60, 60, 60);
+                background-size: cover;
+                margin-left: -20px;
+                margin-right: -20px;
+                margin-top: 30px;
+                padding: 20px;
+            }
+            #contacts {
+                float: left;
+                color: white;
+                font-size: 20px;
+                text-align: left;
+                margin-left: 200px;
+                
+            }
+            #social {
+                float: right;
+                text-align: center;
+                margin-right: 155px;
+            }
+        </style> 
+    </head>
+    <body>
+        <div id="topnav">
+            <table width="100%">
+                <tr>
+                    <td width="5%"></td>
+                    <td id="c" width="30%">
+                        <img id="webicon" src="zeco_logo.png" width="170px">Home</td>
+                    <td width="20%"><a href="products.html">Products</a></td>
+                    <td width="20%"><a href="about.html">About Us</a></td>
+                    <td width="20%"><a href="contacts.html">Contact Us</a></td>
+                    <td width="5%"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="title">
+            <h1>Welcome to Zeco!
+            </h1>
+        </div>
+        <div id="subtitle">
+            <h2 class="hed2">Zeco is a non-profit organisation that is dedicated to reduce waste and promote environmental consciousness through biodegradable stationary. We use Computer Aided Design and Manufacturing technology to design and 3D print biodegradable stationary.
+                </h2>
+        </div>
+        <div class="two">
+            <div class="information2">
+                <div class="insider">
+                    <h2>Our Identity and Purpose</h2>
+                    <p>
+                        Zeco is devoted to reducing waste and promoting environmental consciousness. We strive to make a positive impact on the environment through our products. 
+                        Our logo serves as a visual representation of our core values: sustainability and innovation. It combines elements of nature and technology, symbolizing the harmonious integration of eco-friendly practicees and innovative solutions. This unique fusion embodies our forward-thinking approach to sustainability. 
+                        "A different pen, a different future." Our slogan captures the brand's essence. We aim to create a pen different from the rest that will lead to a brighter future for humanity on this planet. We firmly believe that every small change we make today will lead to a significant difference in the future. 
+                        <br/><br/>
+                        We maintain sustainable business practices across all channels, whether it is material sourcing, manufacturing or marketing, to ensure that we embody our values. Evry step in the process aligns with our commitment to reducing waste and promoting sustainable practices.
+                        At Zeco, we don't just sell products, we sell an idea: that anyone can make a positive difference to the world through small actions at first. Although our products directly contribute to improving the environment, we are more about embracing a holistic approach to business and inspiring other people to take action towards positive change. By choosing Zeco, you are not only purchasing a pen; you are supporting a movement towards a greener, more beaufitul future.  
+                    </p>
+                </div>
+            </div>
+            <div class="img2">
+                <img class="actualimage" src="pen3.jpg" alt="Image">
+        <!--         <div class="imgoverlay">
+                 <div class="imgtext">Find out more</div>
+                </div></a> -->  
+            </div>
+        </div>
+        <div class="one">
+            <div class="information1">
+                <div class="insider">
+                    <h2 class="sectionheading" size:90px;>Biodegradability</h2>
+                    <p>The Z-pen is unlike an ordinary pen; it is a remarkable innovation that combines functionality with sustainability. Unlike traditional plastic pens that contribute to environmental pollution, the Z-pen is commercially biodegradable. The entire pen case is made of Polylactic Acid (PLA), a bio-based polymer derived from renewable resources such as corn starch or sugarcane.
+                        <br/>
+                        The utilization of PLA in the Z-pen makes it an eco-friendly alternative to conventional plastic pens. When disposed of properly, the pen undergoes a natural degradation process, breaking down into biodegradable molecules. This decomposition ensures that the pen does not leave behind harmful residues or contribute to long-lasting waste accumulation. 
+                    </p>    
+                    <h2 class="sectionheading" size:90px;>A different pen, a different future.</h2>
+                    <p>At Zeco, our brand identity represents zero waste and eco-consciousness. Our modern logo combines nature and technology, reflecting our innovative approach. "A different pen, a different future" is our slogan, embodying our commitment to sustainability. We maintain a consistent visual identity across all channels.
+                    </p>
+                </div>
+            </div>
+            <div class="img1">
+                <img class="actualimage" src="pen3.jpg" alt="Image">
+         <!--       <div class="imgoverlay">
+                    <div class="imgtext">Find out more</div>
+                </div></a> --> 
+            </div>
+        </div>
+        <div id="footersection">
+            <p id="contacts" width="40%">
+                Kristin School, 360 Albany Highway, Albany, Auckland 0632, New Zealand
+                <br/>
+                Oscar Liu Tel. 022 034 3308
+                <br/>
+                Email CEO Oscar Liu: 52114@kristin.school.nz
+            </p>
+            <table id="social" width="35%">
+                <td><a href="https://www.instagram.com/zeco_yes"><img width="80px" src="instagram.png"></a></td>
+            </table>
+        </div>
+    </body>
+</html>
