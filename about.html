@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>About Us</title>
+        <link rel="shortcut icon" type="img/png" href="icon.png">
+        <style rel="stylesheet" type="text/css">
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: white;
+            }
+            h1 {
+                size: 90px;
+            }
+            h2 {
+                size: 90px;
+            }
+            .sectionheading {
+                size: 90px;
+            }
+            h3 {
+                size: 40px;
+            }
+            p {
+                size: 30px;
+            }
+            .smalldes {
+                font-size: 20px;
+            }
+            .description {
+                size: 200px;
+            }
+            a {
+                color: black;
+                text-decoration: none;
+                transition-duration: 0.5s;
+            }
+            a:hover {
+                color: black;
+                transition-duration: 0.1s;
+            }
+            #topnav {
+                font-size: 30px;
+                text-align: center;
+                background-color: white;
+            }
+            #webicon {
+                position: absolute;
+                width: 150px;
+                margin-left: -180px;
+                margin-top: -60px;
+            }
+            #c {
+                color: darkgray;
+            }
+            #title {
+                font-size: 40px;
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 20px;
+                text-align: center;
+            }
+            .subtitle {
+                font-size: 40px;
+                padding: 20px;
+                text-align: center;
+                margin-bottom: -200px;
+            }
+            .insider {
+                position: relative;
+                bottom: 50px;
+            }
+            .process {
+                height: 400px;
+                padding-top: 230px;
+                background-color: rgb(255, 255, 255);
+                margin-left: -10px;
+                margin-right: -10px;
+                display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start;
+            }
+            .processbottomone {
+                height: 400px;
+                padding-top: 230px;
+                background-color: rgb(255, 255, 255);
+                margin-left: -10px;
+                margin-right: -10px;
+                margin-bottom: 250px;
+                display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start;
+            }
+            .processimg1 {
+                width: 38%;
+                height: 40%;
+                position: absolute;
+                left: 10%;
+                background-image: url(Bridge.JPG);
+                background-size: cover;
+                flex-basis: 38%;
+            }
+            .processimg2 {
+                width: 38%;
+                height: 40%;
+                position: absolute;
+                right: 10%;
+                background-image: url(Bridge.JPG);
+                background-size: cover;
+                flex-basis: 38%;
+            }
+            .processimg2 {
+                width: 38%;
+                height: 40%;
+                position: absolute;
+                right: 10%;
+                background-image: url(Bridge.JPG);
+                background-size: cover;
+                flex-basis: 38%;
+            }
+            .one {
+                height: 700px;
+                padding-top: 230px;
+                background-color: rgb(223, 223, 223);
+                margin-left: -10px;
+                margin-right: -10px;
+            }
+            .information1 {
+                position: absolute;
+                width: 38%;
+                left: 10%;
+                color: rgb(0, 0, 0);
+                text-align: justify;
+            }
+            .img1 {
+                width: 38%;
+                height: 40%;
+                position: absolute;
+                right: 10%;
+                background-image: url(Bridge.JPG);
+                background-size: cover;
+            }
+            .two {
+                height: 700px;
+                padding-top: 230px;
+                background-color: rgb(243, 243, 243);
+                margin-left: -10px;
+                margin-right: -10px;
+            }
+            .information2 {
+                position: absolute;
+                width: 38%;
+                right: 10%;
+                color: rgb(0, 0, 0);
+                text-align: justify;
+            }
+            .img2 {
+                width: 38%;
+                height: 40%;
+                position: absolute;
+                left: 10%;
+            }
+            .actualimage {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+            .imgoverlay {
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                opacity: 0%;
+                transition-duration: 0.5s;
+            }
+            .imgoverlay > * {
+                transform: translateY(20px);
+                transition: transform 2s;
+            }
+            .imgoverlay:hover {
+                opacity: 100%;
+                transition-duration: 0.1s;
+            }
+            .imgoverlay:hover > * {
+                transform: translateY(0px);
+                transition: transform 0.1s;
+            }
+            #footersection {
+                float: left;
+                width: 100%;
+                background-color: rgb(60, 60, 60);
+                background-size: cover;
+                margin-left: -20px;
+                margin-right: -20px;
+                margin-top: 30px;
+                padding: 20px;
+            }
+            #contacts {
+                float: left;
+                color: white;
+                font-size: 20px;
+                text-align: left;
+                margin-left: 200px;
+                
+            }
+            #social {
+                float: right;
+                text-align: center;
+                margin-right: 155px;
+            }
+        </style> 
+    </head>
+    <body>
+        <div id="topnav">
+            <table width="100%">
+                <tr>
+                    <td width="5%"></td>
+                    <td width="30%"><a href="home.html">
+                        <img id="webicon" src="zeco_logo.png" width="170px">Home</a></td>
+                    <td width="20%"><a href="products.html">Products</a></td>
+                    <td id="c" width="20%">About Us</td>
+                    <td width="20%"><a href="contacts.html">Contact Us</a></td>
+                    <td width="5%"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="title">
+            <h1>Why choose Zeco?</h1>
+        </div>
+        <div class="one">
+            <div class="information1">
+                <div class="insider">
+                    <h2 class="sectionheading" size:90px;>Zeco's appeal</h2>
+                    <p class="smalldes">
+                        The Z-pen's angled body is visually appealing and designed for functional comfort, leaning onto your hand while you write. Its slim shape adds to its attractiveness. With an innovative and ergonomic design, it accommodates various hand sizes and grips, ensuring a personalized and pleasant writing experience. The pen's adjustable holds cater to different needs, providing comfort and ease. Additionally, the Z-pen offers customization options in colors, textures, and designs, allowing you to reflect your personality and style. Made of lightweight yet durable polylactic acid (PLA), it withstands accidental drops and lasts longer. Choose the Z-pen for a superior combination of style, practicality, and durability, and elevate your writing experience.
+                    </p>
+                </div>
+            </div>
+            <div class="img1">
+                <img class="actualimage" src="comparison2.png" alt="Image">
+     <!--           <div class="imgoverlay">
+                    <div class="imgtext">Find out more</div> -->
+                </div></a>
+            </div>
+        </div>
+        <h1 class="subtitle">Our process</h1>
+        <div class="process">
+            <div class="processimg1">
+                <img class="actualimage" src="printercool1.jpg" alt="Image">
+                <h2>3D Printing</h2>
+                <p class="description">
+                    We use an in-house 3D printer to print out prototypes that we can test. This allows us to identify issues swiftly and to constantly refine our product when inspiration strikes. 
+                </p>
+            </div>
+            <div class="processimg2">
+                <img class="actualimage" src="printer1.jpg" alt="Image">
+                <h2>Design: Fusion 360</h2>
+                <p class="description">
+                    We implement computer aided design(CAD) to create a 3D model of the product before it is printed. Software such as fusion 360 and Blender are powerful tools that help us turn imagination into reality. 
+                </p>
+            </div>    
+        </div>
+        <div class="processbottomone">
+            <div class="processimg1">
+                <img class="actualimage" src="sketches1.jpg" alt="Image">
+                <h2>Planning & Drawings</h2>
+                <p class="description">
+                    Our chief of Design, Ryan Shen, has utilized his extensive art skills and rich imagination to come up with the original design of the Z-pen. He continutes to make improvements through his sketches.
+                </p>
+            </div>
+            <div class="processimg2">
+                <img class="actualimage" src="pen3.jpg" alt="Image">
+                <h2>Collaboration</h2>
+                <p class="description">
+                    We make use of every member's creativity through discussions that enable us to come up with different improvements to the product and inspire each other. 
+                </p>
+            </div>    
+        </div>
+        <div id="footersection">
+            <p id="contacts" width="40%">
+                Kristin School, 360 Albany Highway, Albany, Auckland 0632, New Zealand
+                <br/>
+                Oscar Liu Tel. 022 034 3308
+                <br/>
+                Email CEO Oscar Liu: 52114@kristin.school.nz
+            </p>
+            <table id="social" width="35%">
+                <td><a href="https://www.instagram.com/zeco_yes"><img width="80px" src="instagram.png"></a></td>
+            </table>
+        </div>
+    </body>
+</html>
